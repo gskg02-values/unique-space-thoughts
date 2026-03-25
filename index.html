@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Unique Space for Unique Thoughts | A Collection of Voices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #fdfdfd;
+            --text: #6C0000;
+            --accent: #2d5a27; /* A deep botanical green */
+            --card-bg: #FDF5E6;
+            --border: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        
+	header p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 20px auto 0;
+            
+        }
+
+	header p1 {
+            font-size: 0.8rem;
+            color: #666;
+            max-width: 600px;
+            margin: 20px auto 0;
+            font-style: italic;
+        }
+
+        .gallery-container {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        /* The CSS Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-color: var(--accent);
+        }
+
+        .card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .logline {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.8rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        .quote-box {
+            font-family: 'Inter', sans-serif;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 1.1rem;
+            margin: 20px 0;
+            padding-left: 20px;
+            border-left: 2px solid var(--accent);
+            color: #444;
+            flex-grow: 1; /* Pushes the button to the bottom */
+        }
+
+        .btn-read {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: var(--text);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: center;
+            transition: background 0.2s;
+        }
+
+        .btn-read:hover {
+            background-color: var(--accent);
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>A Unique Space for Unique Thoughts</h1>
+    <p>A series of curated conversations exploring value themes derived from the natural world.</p>
+
+    <strong><p1>"Not conversation of words;but confrontations of truths"</p1></strong>
+
+</header>
+
+<div class="gallery-container">
+    <main class="grid">
+        
+        <article class="card">
+            <div class="logline">Which is most important</div>
+            <h2>HISTORY or LEGACY</h2>
+            <div class="quote-box">
+                "The future is not written by history—It is shaped by what we choose to carry forward."
+            </div>
+            <a href="Dialogues/history-legacy-dialogue.pdf" class="btn-read" target="_blank">READ BOOK</a>
+        </article>
+       
+ 
+	<article class="card">
+            <div class="logline">A Dialogue on Choice</div>
+            <h2>Freedom & Self-Responsibility</h2>
+            <div class="quote-box">
+                "Real freedom is not doing anything… it’s handling everything."
+            </div>
+            <a href="Dialogues/freedom-self responsibility.pdf" class="btn-read" target="_blank">READ BOOK</a>
+        </article>
+
+
+	<article class="card">
+            <div class="logline">A Dialogue on Growth and Continuity</div>
+            <h2>EDUCATION & CIVILISATION </h2>
+            <div class="quote-box">
+                "Education teaches what was known; Civilization reveals what was learned."
+            </div>
+            <a href="Dialogues/education-civilisation.pdf" class="btn-read" target="_blank">READ BOOK</a>
+        </article>
+
+
+	<article class="card">
+            <div class="logline">A Dialogue on Creation vs Consequence</div>
+            <h2>Innovations & Responsibility </h2>
+            <div class="quote-box">
+                "Innovation is meaningful only when it fulfills its true intention — enhancing life without risking its continuity."
+            </div>
+            <a href="Dialogues/innovation-responsibility.pdf" class="btn-read" target="_blank">READ BOOK</a>
+        </article>
+
+
+
+
+        </main>
+</div>
+
+<footer>
+    
+<p>&copy; 2026 Dialogue Books Project. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

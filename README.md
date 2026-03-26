@@ -67,3 +67,5 @@ Share your thoughts at gskg02@gmail.com
 > but what we build **without creating unseen risks**.
 
 ---
+
+### **"A RECYCLABLE, REUSABLE, REDUCABLE and a SUSTAINABLE digital writing with humane thinking."**

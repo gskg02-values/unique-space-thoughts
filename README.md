@@ -57,6 +57,7 @@ Future collaboration may evolve based on alignment with the vision.
 ## 📬 Connect
 
 If this space resonates with you, feel free to explore, reflect, and share.
+Share your thoughts at gskg02@gmail.com
 
 ---
 
